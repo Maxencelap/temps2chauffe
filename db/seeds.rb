@@ -36,100 +36,27 @@ Nous contacter pour plus de renseignements.
 
 Cette moto a une carte grise française.", prix: "1550€")
 
-Moto.create!(titre: "Kawazaki", description:"Superfour, King of Road,  la  900Z à connu plusieurs surnoms élogieux,  vantant ses qualités de moto la plus performante et la plus sexy lors de sa sortie en 1972.  
+Moto.create!(titre: "Benelli 500 QUATTRO", description:"Connue pour son sacre de champion du monde en 1969 pour la catégorie 250, Benelli est une marque pour le moins atypique, qui a connu un succès en dilettante.  Malgré les efforts déployés par le groupe DE TOMASO durant les années 70 pour redynamiser la marque et rationnaliser sa production, Benelli n'a jamais su s'imposer face à la déferlante japonaise...
 
+Petite anecdote, la distribution des motos en France fut un échec cuisant, à cause du choix du distributeur, Motobécane... 
 
-La moto que nous vous proposons ici est un modèle 73 de la toute première série, dans son coloris Yellow Ball.
+ 
 
-​
+Base de restauration d'une Benelli 500 QUATTRO 1ère série disponible. Critères de restauration identiques à la 75O SEI.
 
-
-
-Elle a été restaurée il y a 2 ans, voici en résumé  le travail réalisé : 
-
-​
-
-- Démontage intégral de la moto
-
-- Sablage cadre et peinture epoxy, zinguage de la visserie, rayons...
-
-- Réfection complète du moteur; sablage et microbillage carters, bloc entièrement démonté, réalésage, culasse revue...
-
-- Carrosserie neuve
-
-- Pots  neufs, réfection des comodos et du circuit électrique...
-
-- Zingage de la boulonnerie d'origine
-
-- pièces chromées neuves
-
-- Toutes pièces d'usure remplacées
-
-​
-
-Elle possède notamment un très rare garde-boue arrière long.
-
-​
-
-Cette machine est spéciale, car elle possède un bloc moteur de 900, dont les chemises ont été remplacées et réalésées pour arriver à une cylindrée de 1135cc.  Cela rend la moto beaucoup plus coupleuse et bestiale! 
-
-​
-
-​
-
-Nous contacter pour plus de renseignements.
-
-​
-
-Cette moto a une carte grise française.", prix: "1550€")
-
-Moto.create!(titre: "Kawazaki", description:"Superfour, King of Road,  la  900Z à connu plusieurs surnoms élogieux,  vantant ses qualités de moto la plus performante et la plus sexy lors de sa sortie en 1972.  
-
-​
-
-La moto que nous vous proposons ici est un modèle 73 de la toute première série, dans son coloris Yellow Ball.
-
-​
-
-
-
-Elle a été restaurée il y a 2 ans, voici en résumé  le travail réalisé : 
+ Voici dans les grandes lignes le résumé des travaux :
 
 ​
 
 - Démontage intégral de la moto
 
-- Sablage cadre et peinture epoxy, zinguage de la visserie, rayons...
+- Sablage cadre et peinture epoxy, zinguage de la visserie, rayons et jantes neuves...
 
-- Réfection complète du moteur; sablage et microbillage carters, bloc entièrement démonté, réalésage, culasse revue...
+- Réfection complète du moteur,  fiabilisation du tendeur de distribution, de la roue libre du démarreur, du circuit de charge batterie, pose d'un allumage électronique.
 
-- Carrosserie neuve
+-Peinture
 
-- Pots  neufs, réfection des comodos et du circuit électrique...
-
-- Zingage de la boulonnerie d'origine
-
-- pièces chromées neuves
-
-- Toutes pièces d'usure remplacées
-
-​
-
-Elle possède notamment un très rare garde-boue arrière long.
-
-​
-
-Cette machine est spéciale, car elle possède un bloc moteur de 900, dont les chemises ont été remplacées et réalésées pour arriver à une cylindrée de 1135cc.  Cela rend la moto beaucoup plus coupleuse et bestiale! 
-
-​
-
-​
-
-Nous contacter pour plus de renseignements.
-
-​
-
-Cette moto a une carte grise française.", prix: "1550€"); 
+-Accessoires...", prix: "1550€"); 
 Moto.create!(titre: "Kawazaki", description:"Superfour, King of Road,  la  900Z à connu plusieurs surnoms élogieux,  vantant ses qualités de moto la plus performante et la plus sexy lors de sa sortie en 1972.  
 
 ​
