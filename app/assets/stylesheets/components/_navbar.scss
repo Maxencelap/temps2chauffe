@@ -1,11 +1,38 @@
-.navbar-lewagon {
+.bar {
+  display: flex;
   justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  margin: 10px;
 }
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
+.logo img {
+  width: 75px;
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+.btn-nav {
+  display: flex;
+}
+
+.motos {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+    &:hover {
+      text-decoration: none;
+      border-bottom: solid;
+      color: black;
+    }
+}
+
+.services {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  margin: 20px;
+    &:hover {
+      text-decoration: none;
+      border-bottom: solid;
+      color: black;
+    }
 }
