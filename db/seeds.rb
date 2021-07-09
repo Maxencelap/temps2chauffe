@@ -26,8 +26,7 @@ Moto.create!(marque: "Honda",
              On peut légitimement trouver que 88000kms c’est élevé pour une moto, mais pour le V2 de l’africa ce n’est rien du tout, ces moteurs font 200000kms à l’aise si on fait l’entretien en temps et en heure.
              Il ne faut pas oublier aussi que plus de 80% de ce type de moto à déjà fait un tour de compteur, donc par exemple 40000kms = 140000kms car le compteur n’a que 5 chiffres et non 6,  beaucoup d'éléments trahissent en général un kilométrage élevé, mais un non initié ne le verra pas et se fera avoir!
              Enfin cette moto au moins a un kilométrage réel, et le fait qu’elle ne fume pas, ne consomme ni eau ni huile, et n’a aucune fuite démontre sa parfaite santé.
-             Carte grise française en règle.",
-            )
+             Carte grise française en règle.",)
 
 Moto.create!(marque: "Honda",
             modele: "750 Four - k4",
@@ -140,10 +139,9 @@ Moto.create!(marque: "Harley Davidson",
             kilometres: "modifier",
             prix: "sur demande",
             description: "La FX Superglide est le point de départ qui donnera naissance à toute une gamme FX/R chez Harley Davidson.
-              Mélange entre un FLH déshabillé et une partie cycle avant de Sportster,  cette superglide est pour le moins unique avec sa longue coque arrière en fibre rappelant celui d'un bateau, qui lui vaudra son surnom de "Boat Tail".
+              Mélange entre un FLH déshabillé et une partie cycle avant de Sportster,  cette superglide est pour le moins unique avec sa longue coque arrière en fibre rappelant celui d'un bateau, qui lui vaudra son surnom de Boat Tail.
               Le modèle présenté ici est un import US peu kilométré ( 9300 miles), qui  n'a été que partiellement rénové afin qu'il garde son authenticité. Seule la selle et la peinture  ont été refaites sur cet exemplaire, son moteur a lui été révisé.
-              Un bel exemple de modèle rare dans la gamme Harley,  un vrai collector!",
-             )
+              Un bel exemple de modèle rare dans la gamme Harley,  un vrai collector!")
 
 Moto.create!(marque: "Kawasaki",
             modele: "KZ 1100R Evocation",
@@ -180,8 +178,7 @@ Moto.create!(marque: "Kawasaki",
               C'est un vrai régal à conduire, elle est extrêmement coupleuse, et allonge les bras dès les bas régimes.
               Les opportunités d'acquérir une vraie 1100R d'origine sont quasi nulles, étant donné qu'il n'y a eu que 1300 exemplaires. 900 furent livrées au Canada qui sont les commanditaires de ce modèle, environ 90 en Afrique du Sud, et le reste éparpillé dans le monde. Seules 5 motos ont été importées en France, et il n'en reste que 4 aujourd'hui, c'est pourquoi cette Evocation prend tout son sens! 
               Nous contacter pour plus de renseignements.
-              Cette moto possède une française.",
-             )
+              Cette moto possède une française.")
 
 Moto.create!(marque: "Kawasaki",
             modele: "Z1000 A2",
@@ -208,8 +205,7 @@ Moto.create!(marque: "Kawasaki",
               Elle possède son garde boue arrière long européen, qui est une pièce rare et difficile à trouver.
               Elle est montée actuellement avec un échappement Marshall 4 en 1, mais il est possible d'installer une ligne 4 en 2 d'origine en supplément.
               Nous contacter pour plus de renseignements.
-              Cette moto à une carte grise française",
-             )
+              Cette moto à une carte grise française")
 
 Moto.create!(marque: "Honda",
             modele: "750 Four - K6",
@@ -236,8 +232,7 @@ Moto.create!(marque: "Honda",
               ...
              
               Nous contacter pour plus d'infos
-             Cette moto a une carte grise française.",
-             )
+             Cette moto a une carte grise française.")
 
 Moto.create!(marque: "Kawasaki",
             modele: "Z650 - B2",
@@ -268,8 +263,7 @@ Moto.create!(marque: "Kawasaki",
              Actuellement la moto vient de sortir d'atelier, et est en rodage. Il est prévu que les carters en alu soient polis un peu plus en profondeur, ainsi que les fourreaux de fourche, selon ce que souhaite le futur acheteur, moto fort brillante ou non.
              Il est tout à fait possible de remplacer les pièces patinées, de monter un échappement neuf, ou de la rendre 100% restaurée selon le budget  qu'aura le futur acquéreur
              Nous contacter pour plus de renseignements.
-             Cette moto à une carte grise française",
-             )
+             Cette moto à une carte grise française")
 
 Moto.create!(marque: "Honda",
             modele: "CB 750 KO - Sandcast",
@@ -285,8 +279,7 @@ Moto.create!(marque: "Honda",
               Toujours est-il que celle que nos amis anglais et américains appellent la HONDA CB 750 K0 « Sand-Cast » (ou « Carter sable », chez nous) appartient bel et bien à la toute première série de cette magnifique moto qui émerveilla bon nombre d’adolescents et d’adultes durant la décennie qui suivit. Piqués au vif, l’ensemble des constructeurs de motos se remettront au travail pour satisfaire une demande incroyable... Les années 70, époque de liberté, étaient en marche et la « 4 pattes Honda » fut bien l’un de ses plus beaux vecteurs !
               La moto présentée est l’une de ces machines appartenant à cette toute première série, aux carters-moteurs moulés au sable. Elle a été entièrement mise en pièces et restaurée dans les règles de l’art. Maintenue avec soin dans le strict respect de la configuration d’origine, elle a également fait l’objet d’essais routiers et d’un rodage soigneux après remontage. Cette Honda CB 750 K0 est en parfait état de fonctionnement.
               Nous contacter pour plus de renseignements.
-              Livraison possible dans toute la France et l'Europe, nous consulter.",
-             )
+              Livraison possible dans toute la France et l'Europe, nous consulter.")
 
 Moto.create!(marque: "Kawasaki",
             modele: "GPZ 1100 B2",
@@ -294,7 +287,7 @@ Moto.create!(marque: "Kawasaki",
             kilometres: "modifier",
             prix: "Vendue",
             description: "La GPZ1100 B2 est une évolution de la Z1000 plus sophistiquée, notamment avec son injection Mikuni et son tableau de bord a cristaux liquides bien pensé. Elle coiffe la gamme sportive avec sa petite soeur la GPZ750 R1 dont elle partage les couleurs de carrosseries et certains équipements.
-              La B2 proposée ici possède un impressionnant historique avec factures depuis sa 1ère révision à 848kms, faite par le concessionnaire Kawasaki "Godier-Genoud" en Savoie, qui avait probablement vendu cette moto neuve. Elle a été entretenue régulièrement au fil des ans. 
+              La B2 proposée ici possède un impressionnant historique avec factures depuis sa 1ère révision à 848kms, faite par le concessionnaire Kawasaki Godier-Genoud en Savoie, qui avait probablement vendu cette moto neuve. Elle a été entretenue régulièrement au fil des ans. 
               Elle affiche 91800kms,  mais le haut moteur a été complètement refait et remplacé par un kit wiseco à 45000kms, avec culasse neuve en échange standard., les pistons d'origine sont connus pour avoir une faiblesse, et ne tenaient pas dans le temps.
               Voici ce qui a été fait récemment niveau entretien et frais :
               
@@ -339,8 +332,7 @@ Moto.create!(marque: "Kawasaki",
               Ce n'est pas non plus une moto neuve, elle a quelques petites griffes, des éclats de peinture sur le moteur et le cadre, mais rien d'anormal pour une moto qui a ce kilométrage.
               Elle est prête à prendre la route!
               Nous contacter pour plus de renseignements.
-              Cette moto a une carte grise normale française.",
-             )
+              Cette moto a une carte grise normale française.")
 
 Moto.create!(marque: "Kawasaki",
             modele: "KZ 1100 R",
