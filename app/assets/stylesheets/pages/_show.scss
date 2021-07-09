@@ -1,0 +1,32 @@
+.card-show{
+  overflow: hidden;
+  height: 500px;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+}
+
+.card-show img {
+  height: 100%;
+  width: 400px;
+  object-fit: cover;
+}
+
+.card-show h2 {
+  font-size: 27px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-show p {
+  font-size: 12px;
+  line-height: 1.4;
+  opacity: .7;
+  margin-bottom: 0;
+  margin-top: 8px;
+}
+
+.card-show .card-show-infos {
+  padding: 16px;
+}
