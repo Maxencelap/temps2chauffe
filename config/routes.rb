@@ -3,5 +3,6 @@ Rails.application.routes.draw do
   root to: 'pages#home'
   
   get "/services", to: "pages#services"
+  get "/contact", to: "pages#contact"
   resources :motos
 end
