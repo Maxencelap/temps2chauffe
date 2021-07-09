@@ -13,7 +13,7 @@ class MotosController < ApplicationController
     end
   
     def create
-      @moto = Book.new(moto_params)
+      @moto = Moto.new(moto_params)
       @moto.save
       redirect_to moto_path(@moto)
     end
@@ -35,9 +35,8 @@ class MotosController < ApplicationController
     end
   
     private
-  
+
     def moto_params
       params.require(:moto).permit(:titre, :description, :prix)
     end
-  
 end
