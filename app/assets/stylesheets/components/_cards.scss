@@ -1,9 +1,16 @@
+.title-show{
+  text-align: center;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
 .card-trip {
   overflow: hidden;
   background: white;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   width: 300px;
   margin: 20px;
+  text-decoration: none;
 }
 
 .card-trip > img {
@@ -13,8 +20,14 @@
 }
 
 .card-trip p {
-  margin-top: 10px;
+  margin: auto;
   text-align: center;
   font-family: 'Roboto';
-  font-size: 20px;
+  font-size: 16px;
+}
+
+.infos {
+  text-align: center;
+  text-decoration: none;
+  color: black;
 }
