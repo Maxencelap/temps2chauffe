@@ -14,8 +14,11 @@ class MotosController < ApplicationController
   
     def create
       @moto = Moto.new(moto_params)
-      @moto.save
-      redirect_to moto_path(@moto)
+      if@moto.save
+        redirect_to moto_path(@moto)
+      else
+        render :new
+      end
     end
   
     def edit
