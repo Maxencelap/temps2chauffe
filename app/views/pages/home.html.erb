@@ -4,16 +4,19 @@
   <div class="card-main">
     <% @motos.last(3).each do |moto| %>
       <div class="card-home">
-        <div class="card-img">
-          <img src="https://cdn.pixabay.com/photo/2016/03/27/17/59/motorcycle-1283299_960_720.jpg" alt="photo">
+        <%= link_to moto_path(moto) do %>
+          <div class="card-img">
+            <img src="https://cdn.pixabay.com/photo/2016/03/27/17/59/motorcycle-1283299_960_720.jpg" alt="photo">
+          </div>
+              <div class="moto-content">
+                <div><%= moto.marque.upcase %></div>
+                <div><%= moto.modele.upcase %></div>
+                <div><%= moto.annee %></div>
+              </div>
         </div>
-            <div class="moto-content">
-              <div><%= moto.marque.upcase %></div>
-              <div><%= moto.modele.upcase %></div>
-              <div><%= moto.annee %></div>
-            </div>
-      </div>
+      <% end %>
     <% end %>
   </div>
 </div>
+
 <%= render 'shared/footer' %>
