@@ -1,10 +1,87 @@
 
 <div class="container">
  <h2 class="title"> <%= @moto.marque.upcase %> <%= @moto.modele.upcase %>- <%= @moto.annee.upcase %> - <%= @moto.kilometres.upcase %></h2>
-  <div class="card-show">
-      <img src="https://static.wixstatic.com/media/6cbd7f_37adff84790042ea801cce04ab0ab410~mv2_d_3568_2368_s_2.jpg/v1/fill/w_519,h_345,al_c,q_80,usm_0.66_1.00_0.01/6cbd7f_37adff84790042ea801cce04ab0ab410~mv2_d_3568_2368_s_2.webp" />
+
+<section>
+    <div class="container">
+        <div class="carousel">
+            <input type="radio" name="slides" checked="checked" id="slide-1">
+            <input type="radio" name="slides" id="slide-2">
+            <input type="radio" name="slides" id="slide-3">
+            <input type="radio" name="slides" id="slide-4">
+            <input type="radio" name="slides" id="slide-5">
+            <input type="radio" name="slides" id="slide-6">
+            <ul class="carousel__slides">
+                <li class="carousel__slide">
+                    <figure>
+                        <div>
+                            <img src="https://images.unsplash.com/photo-1568708167243-438efa1d7697?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80" alt="">
+                        </div>
+                    </figure>
+                </li>
+                <li class="carousel__slide">
+                    <figure>
+                        <div>
+                            <img src="https://images.unsplash.com/photo-1516193313597-3ada7b1056a6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="">
+                        </div>
+                    </figure>
+                </li>
+                <li class="carousel__slide">
+                    <figure>
+                        <div>
+                            <img src="https://images.unsplash.com/photo-1610202926204-c0c9b7d8f112?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80" alt="">
+                        </div>
+                    </figure>
+                </li>
+                <li class="carousel__slide">
+                    <figure>
+                        <div>
+                            <img src="https://images.unsplash.com/photo-1522850003946-16cb11d41a86?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80" alt="">
+                        </div>
+                    </figure>
+                </li>
+                <li class="carousel__slide">
+                    <figure>
+                        <div>
+                            <img src="https://images.unsplash.com/photo-1614248888480-7d6ded08ca67?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=625&q=80" alt="">
+                        </div>
+                    </figure>
+                </li>
+                <li class="carousel__slide">
+                    <figure>
+                        <div>
+                            <img src="https://images.unsplash.com/photo-1509896209262-537d7f2ef041?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="">
+                        </div>
+                    </figure>
+                </li>
+            </ul>    
+            <ul class="carousel__thumbnails">
+                <li>
+                    <label for="slide-1"><img src="https://images.unsplash.com/photo-1568708167243-438efa1d7697?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80" alt=""></label>
+                </li>
+                <li>
+                    <label for="slide-2"><img src="https://images.unsplash.com/photo-1516193313597-3ada7b1056a6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt=""></label>
+                </li>
+                <li>
+                    <label for="slide-3"><img src="https://images.unsplash.com/photo-1610202926204-c0c9b7d8f112?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80" alt=""></label>
+                </li>
+                <li>
+                    <label for="slide-4"><img src="https://images.unsplash.com/photo-1522850003946-16cb11d41a86?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80" alt=""></label>
+                </li>
+                <li>
+                    <label for="slide-5"><img src="https://images.unsplash.com/photo-1614248888480-7d6ded08ca67?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=625&q=80" alt=""></label>
+                </li>
+                <li>
+                    <label for="slide-6"><img src="https://images.unsplash.com/photo-1509896209262-537d7f2ef041?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt=""></label>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+
     <div class="card-show-infos">
       <p><%= @moto.description %></p>
     </div>
-  </div>
 </div>
